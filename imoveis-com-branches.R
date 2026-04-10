@@ -12,4 +12,10 @@ str(dados)
 
 # Medidas
 
-# (em construção)
+media = mean(dados$imposto)
+mediana = median(dados$imposto)
+desvio_padrao = sd(dados$imposto)
+
+media
+mediana
+desvio_padrao
