@@ -7,8 +7,10 @@ head(dados)
 str(dados)
 
 # Gráficos
-
-# (em construção)
+hist(dados$metragem,
+     main = "Histograma da Metragem",
+     xlab = "Metragem",
+     col = "lightgreen")
 
 # Medidas
 
